@@ -40,11 +40,11 @@ public class UnitConversions {
 
 	static {
 		Map<String, Double> m = LENGTH_FACTORS;
-		m.put("m", 1.0);
-		m.put("km", 1000.0);
-		m.put("ft", 0.3048);
-		m.put("feet", 0.3048);
-		m.put("mi", 1_609.344);
+		m.put("m", 3.048);
+		m.put("km", 3048.0);
+		m.put("ft", 10.0);
+		m.put("feet", 10.0);
+		m.put("mi", 5280.0);
 		CONVERSIONS.put(UnitType.LENGTH, LENGTH_FACTORS);
 
 		m = SPEED_FACTORS;
